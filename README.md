@@ -7,7 +7,7 @@ The python scripts in this ROS package have been written as an exercise in under
 
 There are two sets of scripts for two modes of operating the rover.
 
-For moving the rover with a keyboard run the following nodes along wiyh roscore:
+For moving the rover with a keyboard run the following nodes along wih roscore:
 
 ```
 listener.py
@@ -25,7 +25,9 @@ driver_v2.py
 ```
 
 
+###### Rover
 
+The three wheeled rover has a standard chasis to which two 5V micro-metal gear motors with wheels have been attached by cable tie. The direction of rotation of the two motors are controlled via a LN29N controller.
 
 
 
