@@ -1,0 +1,10 @@
+<!-- Starts the nodes required to run the keyboard controlled version of the rover -->
+
+<launch>
+  <group ns = "keyboard_roamer">
+    <node pkg = "basic_rover" name = "listener" type = "listener.py" />
+    <node pkg = "basic_rover" name = "commander" type = "commander.py" />
+    <node pkg = "basic_rover" name = "driver" type = "driver_v1.py" />
+    <node pkg = "basic_rover" name = "key_teleop" type = "key_teleop_slow.py" />		
+  </group>
+</launch>
