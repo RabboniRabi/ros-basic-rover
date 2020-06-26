@@ -1,0 +1,9 @@
+<!-- Starts the nodes required to run the "self-roaming-obstacle-avoidance" version of the rover -->
+
+<launch>
+  <group ns = "keyboard_roamer">
+    <node pkg = "basic_rover" name = "proximity_checker" type = "proximity_checker.py" />
+    <node pkg = "basic_rover" name = "roamer" type = "roamer.py" />
+    <node pkg = "basic_rover" name = "driver" type = "driver_v2.py" />
+  </group>
+</launch>

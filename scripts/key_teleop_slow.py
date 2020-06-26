@@ -7,6 +7,9 @@
 # Authors:
 #   * Siegfried-A. Gevatter
 
+# Publishing rate slowed down in the class SimpleKeyTeleop to once per second
+# No other changes done from original script.
+
 import curses
 import math
 
