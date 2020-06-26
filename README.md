@@ -35,6 +35,10 @@ To keep the rover mobile, a power bank capable of powering the Raspberry Pi was 
 
 Two HC-SR04 ultrasonic sensors were placed in front of the rover for obstacle detection. Since the echo input from the echo pin of the ultrasonic sensor will be 5V and the Raspberry Pi can only handle 3.3V on its input pins, a voltage divider circuit was used for each sensor. 
 
+![Rover Front](images/rover_front.jpg)
+
+![Rover Back](images/rover_side.jpg)
+
 ###### Components
 
 - [Chasis kit](https://robokits.co.in/robot-kits/robot-chassis-kit/mdf-robot-chassis-kit-with-tachometer-encoder-bo-motors)
